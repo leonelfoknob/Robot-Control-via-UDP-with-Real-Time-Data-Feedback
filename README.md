@@ -9,7 +9,7 @@ This project explores advanced remote control of mobile robots using lightweight
 - Provide a user-friendly GUI to manage robot selection and connectivity based on IP.
 
 ## Methodology
-In a previous iteration, the control system was built around a Rampage joystick that sent commands via UDP to a Jetson Nano, which then forwarded data to an Arduino for motor control on the MFX-1 robot. However, latency increased significantly after 1 meter on the 5GHz network, limiting usability.
+In a previous iteration, the control system was built around a Rampage joystick that sent commands via UDP to a Jetson Nano, which then forwarded data to an Arduino for motor control on the MFX-1 robot. However, latency increased significantly after 1 meter on the 5GHz network, limiting usability. https://github.com/leonelfoknob/Wireless-Robot-Control-Using-UDP-and-Joystick
 
 For this update, the system was reconfigured to use a steering wheel joystick connected to a computer over a 2.4GHz network. This computer sends commands directly to an ESP8266 NodeMCU, eliminating the need for the Jetson Nano and Arduino as intermediaries. The ESP8266 NodeMCU, acting as the robot’s controller, processes and executes commands, controls motors, and reads sensor data directly. Real-time data is then sent back via UDP, allowing the system to maintain a strong, low-latency connection even after testing up to 5 meters.
 
