@@ -15,6 +15,8 @@ For this update, the system was reconfigured to use a steering wheel joystick co
 
 ## Key Components and Features
 - Steering Wheel Joystick: Enables intuitive control, interfacing with a PC to send UDP commands.
+  ![steering](https://github.com/user-attachments/assets/8fcc598a-7cec-4d51-83ce-b4d40e4d7a35)
+  
 - ESP8266 NodeMCU: Handles all motor and sensor operations, receiving commands over a 2.4GHz network for quick processing.
 - Graphical User Interface (GUI): A desktop-based interface for choosing and connecting to specific robots by name and IP. The GUI checks connectivity, retrieves battery voltage, and shows connection status in real time.
 - Latency Optimization: Testing revealed significant improvements with the 2.4GHz network, with minimal latency even at extended distances.
