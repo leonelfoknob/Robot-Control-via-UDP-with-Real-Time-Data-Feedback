@@ -18,7 +18,11 @@ For this update, the system was reconfigured to use a steering wheel joystick co
   ![steering](https://github.com/user-attachments/assets/8fcc598a-7cec-4d51-83ce-b4d40e4d7a35)
   
 - ESP8266 NodeMCU: Handles all motor and sensor operations, receiving commands over a 2.4GHz network for quick processing.
+  ![esp8266-nodemcu](https://github.com/user-attachments/assets/233a5f63-835c-49c4-b991-a2cbebb458d8)
+  
 - Graphical User Interface (GUI): A desktop-based interface for choosing and connecting to specific robots by name and IP. The GUI checks connectivity, retrieves battery voltage, and shows connection status in real time.
+  ![gui](https://github.com/user-attachments/assets/221e0a13-7d83-4344-981d-964aff9103eb)
+
 - Latency Optimization: Testing revealed significant improvements with the 2.4GHz network, with minimal latency even at extended distances.
 - Scalability: With IP-based robot selection, the system can expand to control multiple robots by integrating additional ESP8266 units.
 
@@ -26,7 +30,10 @@ For this update, the system was reconfigured to use a steering wheel joystick co
 A scaled-down prototype of the robot was built to demonstrate the system's responsiveness and ease of integration. The setup included:
 
 - System Diagram: Detailing connections between joystick, PC, ESP8266, motors, and sensors.
+  ![prototip_system_diyagram](https://github.com/user-attachments/assets/1784fe0c-8f59-4beb-a0a7-50a751975ea5)
+
 - Prototype Robot: A small-scale version of the MFX-1 equipped with the ESP8266 NodeMCU to showcase control fluidity and response times with the new setup.
+  ![IMG_20211025_183913](https://github.com/user-attachments/assets/262a20ac-94c2-4b87-ab2d-95942a9ab8d9)
 
 ## Outcomes and Future Work
 The current implementation achieved a stable and responsive control experience, with minimal latency over a 2.4GHz network. The GUI, with its IP-based robot selector, streamlines connections, providing a seamless operator experience. Future plans include expanding to internet-based control, optimizing the system further, and exploring additional data feedback mechanisms to enhance the robot's autonomy.
