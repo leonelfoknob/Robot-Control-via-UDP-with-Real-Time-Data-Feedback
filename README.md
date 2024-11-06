@@ -20,9 +20,8 @@ For this update, the system was reconfigured to use a steering wheel joystick co
 - ESP8266 NodeMCU: Handles all motor and sensor operations, receiving commands over a 2.4GHz network for quick processing.
   ![esp8266-nodemcu](https://github.com/user-attachments/assets/233a5f63-835c-49c4-b991-a2cbebb458d8)
   
-- Graphical User Interface (GUI): A desktop-based interface for choosing and connecting to specific robots by name and IP. The GUI checks connectivity, retrieves battery voltage, and shows connection status in real time.
+- Graphical User Interface (GUI): A desktop-based interface for choosing and connecting to specific robots by name and IP. The GUI checks connectivity, retrieves battery voltage, and       shows connection status in real time.
   ![gui](https://github.com/user-attachments/assets/221e0a13-7d83-4344-981d-964aff9103eb)
-
 
 - Latency Optimization: Testing revealed significant improvements with the 2.4GHz network, with minimal latency even at extended distances.
 - Scalability: With IP-based robot selection, the system can expand to control multiple robots by integrating additional ESP8266 units.
