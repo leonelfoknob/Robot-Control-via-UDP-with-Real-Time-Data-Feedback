@@ -2,6 +2,8 @@
 
 This project explores advanced remote control of mobile robots using lightweight, network-based hardware and protocols. Building on prior developments, the aim was to create a seamless, low-latency interface for controlling robots over local and internet networks with real-time data retrieval. The system’s core leverages small, accessible hardware to enable easy integration into diverse robotic setups, from hobbyist projects to autonomous vehicles.
 
+### video demonstration : https://youtu.be/Ce18pIsUCK0
+
 ## Project Objectives
 - Develop a robust, UDP-based communication protocol that ensures low latency and real-time responsiveness.
 - Enable control over 2.4GHz and 5GHz networks, evaluating latency and performance.
